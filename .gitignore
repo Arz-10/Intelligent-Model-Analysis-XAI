@@ -1,0 +1,43 @@
+# Python virtual environment
+.venv/
+venv/
+env/
+.env/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Trained model files (large binaries)
+models/*.pkl
+models/*.h5
+models/*.keras
+models/*.joblib
+
+# Dataset files (may contain sensitive data)
+data/*.csv
+data/*.xlsx
+data/*.json
+
+# Output plots and reports
+outputs/
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Streamlit cache
+.streamlit/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
